@@ -4,7 +4,7 @@ import { Icons } from "@/components/icons";
 import { FlickeringGrid } from "@workspace/ui/components/magicui/flickering-grid";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { siteConfig } from "@/lib/config";
-import { ChevronRightIcon, Quote } from "lucide-react";
+import { Quote, Github } from "lucide-react";
 import Link from "next/link";
 import { DiscordLogoIcon } from "@radix-ui/react-icons";
 
@@ -43,6 +43,16 @@ export function FooterSection() {
           >
             <Icons.twitter className="size-4" />
             <span>Follow us on X</span>
+          </Link>
+
+          <Link
+            href="https://github.com/taishikato/citeanalytics"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Github className="size-4" />
+            <span>Star us on GitHub</span>
           </Link>
 
           {/* <div className="flex items-center gap-2 dark:hidden">
