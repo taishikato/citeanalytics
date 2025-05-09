@@ -34,13 +34,13 @@ pnpm install
 
 ### 3. Set Up Environment Variables 🔑
 
-Copy the sample environment file and fill in your Supabase and app credentials:
+Copy the sample environment file from the web app directory and fill in your Supabase and app credentials:
 
 ```bash
-cp .env.sample .env
+cp apps/web/.env.sample apps/web/.env
 ```
 
-Edit `.env` and provide the following variables:
+Edit `apps/web/.env` and provide the following variables:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
