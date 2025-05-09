@@ -7,6 +7,8 @@
 
 CiteAnalytics is an open-source analytics platform for tracking AI citations. Built with Next.js, Supabase, TypeScript, shadcn/ui, and Tailwind CSS. Deployable on Vercel.
 
+> 🏆 CiteAnalytics won a [Supabase Hackathon](https://x.com/supabase/status/1909552555333398630)!
+
 ## Features ✨
 
 - Analytics for AI citations
