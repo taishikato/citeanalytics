@@ -20,7 +20,7 @@ CiteAnalytics is an open-source analytics platform for tracking AI citations. Bu
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/citeanalytics.git
+git clone https://github.com/taishikato/citeanalytics.git
 cd citeanalytics
 ```
 
