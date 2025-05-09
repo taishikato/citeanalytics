@@ -51,8 +51,6 @@ export const siteConfig = {
     links: [
       { id: 1, name: "Home", href: "#hero" },
       { id: 2, name: "How it Works", href: "#bento" },
-      // { id: 3, name: "Features", href: "#features" },
-      // { id: 4, name: "Pricing", href: "#pricing" },
     ],
   },
   hero: {
