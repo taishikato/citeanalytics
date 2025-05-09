@@ -1,31 +1,96 @@
-# shadcn/ui monorepo template
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/taishik_?style=social)](https://x.com/taishik_)
 
-This template is for creating a monorepo with shadcn/ui.
+[![Demo Video](https://img.youtube.com/vi/EHcOJih-eIA/0.jpg)](https://www.youtube.com/watch?v=EHcOJih-eIA)
 
-## Usage
+# CiteAnalytics 📊
+
+CiteAnalytics is an open-source analytics platform for tracking AI citations. Built with Next.js, Supabase, TypeScript, shadcn/ui, and Tailwind CSS. Deployable on Vercel.
+
+## Features ✨
+
+- Analytics for AI citations
+- Modern UI with shadcn/ui and Tailwind CSS
+- Supabase as the backend
+- TypeScript for type safety
+- Ready for Vercel deployment
+
+## Getting Started 🚀
+
+### 1. Clone the Repository
 
 ```bash
-pnpm dlx shadcn@latest init
+git clone https://github.com/yourusername/citeanalytics.git
+cd citeanalytics
 ```
 
-## Adding components
+### 2. Install Dependencies
 
-To add components to your app, run the following command at the root of your `web` app:
+This project uses [pnpm](https://pnpm.io/):
 
 ```bash
-pnpm dlx shadcn@latest add button -c apps/web
+pnpm install
 ```
 
-This will place the ui components in the `packages/ui/src/components` directory.
+### 3. Set Up Environment Variables 🔑
 
-## Tailwind
+Copy the sample environment file and fill in your Supabase and app credentials:
 
-Your `tailwind.config.ts` and `globals.css` are already set up to use the components from the `ui` package.
-
-## Using components
-
-To use the components in your app, import them from the `ui` package.
-
-```tsx
-import { Button } from "@workspace/ui/components/button"
+```bash
+cp .env.sample .env
 ```
+
+Edit `.env` and provide the following variables:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+NEXT_PUBLIC_SUPABASE_PROJECT_ID=your-supabase-project-id
+SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
+
+# ex) https://www.citeanalytics.com
+NEXT_PUBLIC_APP_URL=your-app-url
+```
+
+You can find these values in your [Supabase project settings](https://app.supabase.com/).
+
+### 4. Run the Development Server 🖥️
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+### 5. Build and Start for Production 🏭
+
+```bash
+pnpm build
+pnpm start
+```
+
+## Deployment 🌐
+
+CiteAnalytics is ready to deploy on [Vercel](https://vercel.com/):
+
+1. Push your repository to GitHub.
+2. Import your repo in Vercel.
+3. Set the environment variables in the Vercel dashboard.
+4. Deploy!
+
+## Tech Stack 🛠️
+
+- [Next.js](https://nextjs.org/)
+- [Supabase](https://supabase.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
+
+## Contributing 🤝
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## Author 👤
+
+[Taishi Kimura on Twitter](https://x.com/taishik_)
