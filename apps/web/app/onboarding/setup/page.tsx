@@ -20,7 +20,8 @@ import type { Database } from "@/types/supabase";
 
 type Project = Database["public"]["Tables"]["projects"]["Row"];
 
-const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://ai-citations.com";
+const appUrl =
+  process.env.NEXT_PUBLIC_APP_URL ?? "https://www.citeanalytics.com";
 
 export default function OnboardingPage() {
   const [projectId, setProjectId] = useState<string | null>(null);
