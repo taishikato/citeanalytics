@@ -93,4 +93,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## Author 👤
 
-[Taishi Kimura on Twitter](https://x.com/taishik_)
+[Taishi on Twitter](https://x.com/taishik_)
