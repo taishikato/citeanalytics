@@ -74,8 +74,8 @@ export const siteConfig = {
       "CiteAnalytics helps you track and analyze when AI systems cite or reference your website content, giving you valuable insights into how your information is being used.",
     cta: {
       primary: {
-        text: "Try for Free",
-        href: "/login",
+        text: "Check Github",
+        href: "https://github.com/taishikato/citeanalytics",
       },
       secondary: {
         text: "See live demo",

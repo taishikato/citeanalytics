@@ -32,7 +32,9 @@ export function LoginForm({
           </p>
         </div>
         <form action={googleLogin}>
-          <GoogleButton />
+          <p className="text-center text-sm text-muted-foreground mt-4">
+            add your sign up button here
+          </p>
         </form>
       </div>
     </div>
