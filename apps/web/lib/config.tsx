@@ -79,7 +79,7 @@ export const siteConfig = {
       },
       secondary: {
         text: "See live demo",
-        href: "https://www.citeanalytics.com/d/supavec",
+        href: `${process.env.NEXT_PUBLIC_APP_URL}/d/supavec`,
       },
     },
   },
