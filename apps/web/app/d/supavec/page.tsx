@@ -14,7 +14,7 @@ import { IconRipple } from "@/components/icon-ripple";
 import { Alert, AlertDescription } from "@workspace/ui/components/alert";
 import { VisitsTable } from "./_components/visits-table";
 
-const PROJECT_ID = "a3e13f39-2698-46c6-b2cd-a1b220c00e50";
+const PROJECT_ID = "2ac9af27-97fe-4f33-86f3-34b8d9d63647";
 const PROJECT_DOMAIN = "www.supavec.com";
 
 export default async function SupavecPage() {
